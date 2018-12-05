@@ -1,7 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-export default function App(props) {
+export default class App extends Component {
+
+  render() {
     return (
-      <h1>Hello {props.text}</h1>
+      <Fragment>
+        <h1>App</h1>
+        <button>Click</button>
+      </Fragment>
     )
+  }
 }

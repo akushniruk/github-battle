@@ -4,6 +4,6 @@ import './index.css';
 import App from './App';
 
 render(
-  <App text="hello"/>,
+  <App/>,
   document.getElementById('app')
 );
